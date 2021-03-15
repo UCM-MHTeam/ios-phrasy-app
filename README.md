@@ -8,37 +8,39 @@
 
 ## Overview
 ### Description
-Mental health and mental illness can be tough to deal with especially when communicating our emotions or gauging how a friend is feeling behind that "I'm okay" or "I'm tired" reply. Phrasy helps facilitate the user to phrase their thoughts into words when they cannot find the words on their own. 
+Bridging the silence/ambiguity gap between friends and mental health/illness
 
-This app concept also allows the user to add their friends and see at a high level (like past few days, some sort of stats, etc) if they're doing great, if they need support, or if they require some space at a given time; similar to a status. 
+Mental health and mental illness can be tough to deal with, especially when communicating our emotions or gauging how a friend is feeling behind the notorious "I'm okay" or "I'm tired" reply. Phrasy helps facilitate the user to phrase their thoughts into words when they cannot find the words to answer the many small-talk and check-in questions.
+
 ### App Evaluation
 
 - **Category:** Health and Wellness
-- **Mobile:** iOS
-- **Story:** Bridging the silence/ambiguity gap between friends and mental health/illness
-- **Market:** General Audience of all ages
-- **Habit:** Yes
-- **Scope:** Simple?
+- **Mobile:** The phraser system feature can be used on mobile devices and is also viable on a desktop version. Everything else seems to only be viable on mobile since features like statuses and statistics are preferred at a quick glance.
+- **Story:** Allows the user to form phrases when they cannot find the words themselves. Phrases include labeling emotions, declaring intentions, offering support,  etc.
+- **Market:** General audience of all ages 4+
+- **Habit:** Main functionality is not habit based, however mood tracking will heavily rely on it.
+- **Scope:** Focal point is the message phraser first, which can require additional help from professionals and online sources to create phrases for effective communication.
 
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-* User can view other user status' at a glance
-    * Among friends
+
 * User can log-in
 * User can register for an account
-* User can see their own profiles
+* User can view other user status' at a glance (only among friends)
 * User can find friends through a query
 * User can view a list of (CA-local) hotlines, wellness centers, etc
-* **User can draft a message based on their current mood**
-    *    Uses a survey form to suggest phrases based on their mood for a message to send
+* **User can draft a message based on certain criteria**
+    *    Uses a survey form to suggest phrases based on their mood, intention, etc. for a message to send
 
 **Optional Nice-to-have Stories**
 * Users can view their friends' mood stats
 * Chat board (one on one)  (can rethink later)
 * User can share/forward message to different apps (IM, FB Messenger, etc.)
+* User can see their own profiles
+
 
 
 ### 2. Screen Archetypes
@@ -72,17 +74,19 @@ This app concept also allows the user to add their friends and see at a high lev
 * **[Opt]** Feed <-> user profiles/stats
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
+First Draft
 <img src="" width=600>
 ![](https://i.imgur.com/Ujfhr04.jpg)
 
-### [BONUS] Digital Wireframes & Mockups
+### [BONUS] Digital Wireframes & Mockups ([Figma Link](https://www.figma.com/file/0RJG7CmvWGkx2tHmbDKAQ8/CodePath-iOS-MH-App?node-id=0%3A1))
+> Below the Message frame, we plan on implementing there a form that can take the user's current feeling/intention and creates a phrase to be sent out.
 
-Figma Link [https://www.figma.com/file/0RJG7CmvWGkx2tHmbDKAQ8/CodePath-iOS-MH-App?node-id=0%3A1]
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F0RJG7CmvWGkx2tHmbDKAQ8%2FCodePath-iOS-MH-App%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+![](https://i.imgur.com/AHLQTZR.png)
 
-### [BONUS] Interactive Prototype
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0RJG7CmvWGkx2tHmbDKAQ8%2FCodePath-iOS-MH-App%3Fnode-id%3D7%253A84%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+### [BONUS] Interactive Prototype ([Figma Preview Link](https://www.figma.com/proto/0RJG7CmvWGkx2tHmbDKAQ8/CodePath-iOS-MH-App?node-id=7%3A34&scaling=scale-down))
+![](https://i.imgur.com/U3GVE9x.gif)
+
 
 ## Schema 
 [This section will be completed in Unit 9]
