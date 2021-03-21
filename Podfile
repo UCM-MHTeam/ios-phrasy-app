@@ -8,6 +8,7 @@ target 'phrasy' do
   # Pods for phrasy
 	pod 'Parse'
 	pod 'AlamofireImage'
+	pod 'Lottie'
 
   target 'phrasyTests' do
     inherit! :search_paths
