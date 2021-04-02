@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		05C21C2C2606DFFD005621EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C21C2A2606DFFD005621EF /* LaunchScreen.storyboard */; };
 		05C21C372606DFFD005621EF /* phrasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C21C362606DFFD005621EF /* phrasyTests.swift */; };
 		05C21C422606DFFD005621EF /* phrasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C21C412606DFFD005621EF /* phrasyUITests.swift */; };
+		05D0CC332617C70B002ED871 /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D0CC322617C70B002ED871 /* QuestionsTableViewController.swift */; };
 		A1F5FFEA5ACE32329F96B7A0 /* Pods_phrasyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F998D105DA43B0DC930EC503 /* Pods_phrasyTests.framework */; };
 		C5F31F91A5E85A7C35844AB1 /* Pods_phrasy_phrasyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B956915B8E76C09CC6A99 /* Pods_phrasy_phrasyUITests.framework */; };
 		E4FFDF86C44F467D55FCF53C /* Pods_phrasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0778669BE47BEAB11B876776 /* Pods_phrasy.framework */; };
@@ -52,6 +53,7 @@
 		05C21C3D2606DFFD005621EF /* phrasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phrasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C21C412606DFFD005621EF /* phrasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phrasyUITests.swift; sourceTree = "<group>"; };
 		05C21C432606DFFD005621EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D0CC322617C70B002ED871 /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
 		0778669BE47BEAB11B876776 /* Pods_phrasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_phrasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		269B56A0C94FEA7B59605E9D /* Pods-phrasyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrasyTests.release.xcconfig"; path = "Target Support Files/Pods-phrasyTests/Pods-phrasyTests.release.xcconfig"; sourceTree = "<group>"; };
 		2BA8BA74359C510E61B72288 /* Pods-phrasyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phrasyTests.debug.xcconfig"; path = "Target Support Files/Pods-phrasyTests/Pods-phrasyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				05C21C282606DFFD005621EF /* Assets.xcassets */,
 				05C21C2A2606DFFD005621EF /* LaunchScreen.storyboard */,
 				05C21C2D2606DFFD005621EF /* Info.plist */,
+				05D0CC322617C70B002ED871 /* QuestionsTableViewController.swift */,
 			);
 			path = phrasy;
 			sourceTree = "<group>";
@@ -165,7 +168,6 @@
 				2BA8BA74359C510E61B72288 /* Pods-phrasyTests.debug.xcconfig */,
 				269B56A0C94FEA7B59605E9D /* Pods-phrasyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +412,7 @@
 				05C21C242606DFFB005621EF /* ViewController.swift in Sources */,
 				05C21C202606DFFB005621EF /* AppDelegate.swift in Sources */,
 				05C21C222606DFFB005621EF /* SceneDelegate.swift in Sources */,
+				05D0CC332617C70B002ED871 /* QuestionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
