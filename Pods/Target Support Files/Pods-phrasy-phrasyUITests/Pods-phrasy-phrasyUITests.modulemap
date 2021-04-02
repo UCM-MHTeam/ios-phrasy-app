@@ -1,6 +1,0 @@
-framework module Pods_phrasy_phrasyUITests {
-  umbrella header "Pods-phrasy-phrasyUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
