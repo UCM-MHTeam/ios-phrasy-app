@@ -1,6 +1,0 @@
-framework module Pods_phrasy {
-  umbrella header "Pods-phrasy-umbrella.h"
-
-  export *
-  module * { export * }
-}
